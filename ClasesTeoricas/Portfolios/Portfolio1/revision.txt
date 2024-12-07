@@ -1,0 +1,7 @@
+Necesitamos definir Transferencias, en donde movemos dinero de un origen a un destino.
+El modelo resultante debe ser compatible con lo desarrollado hasta ahora, es decir, 
+permitir un balance y un reporte. 
+Cada transferencia dejará en cada cuenta un asiento que se verá en los reportes.
+algo asi como "retiro por transferencia" o "credito por transferencia"
+Desde cada uno de estos asientos debe poderse llegar al otro.
+No nos preocuparemos por ahora si hay fondos para hacer el retiro por transferencia
