@@ -1,1 +1,21 @@
+Cajero
 
+Un cajero de supermercado de barrio encontró la posibilidad de hacer un extra todas las semanas.
+Decidió sostener una quiniela clandestina con los clientes conocidos.
+El dueño del supermercado siempre mira con ojos de sospecha. Por lo cual la interacción es la mínima necesaria y nunca se repite.
+Al momento de cobrar en la caja, el cliente apostador le da su nombre, el tipo de apuesta para la semana y el monto que desea apostar y le da el dinero junto con el pago de la compra.
+La posibilidades de apostar en la quiniela de 4 dígitos son.
+- Un Nro a la cabeza, que paga 20 a uno si acierta el Nro que sale primero en la quiniela nacional.
+- Un Nro a los primeros 5, que paga 14 a uno si el Nro está entre los primeros 5.
+- Un Nro a los primeros 10, que paga 10 a uno si el Nro está entre los primeros 10.
+- Un Nro a la centena, que paga 9 a uno si el Nro coincide con los últimos 3 dígitos del Nro ganador.
+- Un Nro a la decena, que paga 2 a uno si el Nro coincide con los últimos 2 dígitos del Nro ganador.
+
+Los Viernes cierra la apuestas justo antes del sorteo de la Quiniela Nacional
+
+El cajero necesita un sistema, seguir usando la libreta es muy peligroso.
+- Necesita saber en todo momento cuanto es el pozo de lo apostado.
+- Necesita poder cerrar las apuestas indicando la secuencia de nros del resultado de la quiniela
+Durante el fin de semana los apostadores simulan una compra para preuntar cuánto les corresponde.
+- Necesita saber dado un nombre, cuanto le corresponde según lo apostado.
+(Muchas veces los apostadores intentan aprovecharse y consultan sin haber apostado)
