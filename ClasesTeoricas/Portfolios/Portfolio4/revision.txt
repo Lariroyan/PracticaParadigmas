@@ -1,0 +1,12 @@
+Implica separar reporte a una clase
+empezamos con Account
+creamos Rerport solo para account
+nos obliga a exponer transactions...
+seguimos con Portfolio, le sacamos lo que tenga de reportes y se lo pasamos a la nueva clase.
+hay que poner un if por la clase de target.
+el if no funcionaldel todo porque anulamos report();
+hay que separar el constructor del trabajo, creamos u nmetodo estatic que crea la instacia y luego le pide listarse
+hay que delegar en el nuevo reporte....
+llevar los parametros a variables de instancia y el target a parametro.
+Mejoramos el nombre del report a SummaryTreeReport
+antes depensar en mas reportes se quitan los ifs

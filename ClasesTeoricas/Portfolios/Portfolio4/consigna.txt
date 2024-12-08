@@ -1,0 +1,33 @@
+Nuevos Reportes
+
+- El resumen de cuenta debe generar una línea por cada tipo de transacción realizada en cada cuenta en un portfolio con el siguiente formato:
+Resumen de Cuenta:
+Depósitos por 100.
+Extracciones por 50.
+Salidas por transferencia de 20.
+Entradas por transferencia de 30.
+Balance = 60
+
+- Reporte de neto de transferencias para cada cuenta en un portfolio debe devolver el resultado de sumar todos los
+depósitos por transferencias y restarle todas las extracciones por transferencias. Para el
+ejemplo anterior, el neto de transferencias sería 10.
+ Neto de Transferencias:
+ Entrada por Transferencias: 10
+Si hubiera habido mas egresos que ingresos sería:
+ Neto de Transferencias:
+ Salida por Transferencias: 10
+y si no hubiera diferencia sería:
+ Neto de Transferencias:
+
+- Reporte Balances debe reproducir la estructura de portfolio pero indicando solo los balances
+Reporte de balances:
+Portfolio 30
+  Portfolio 5
+    Cuenta 5
+  Cuenta 15
+  Portfolio 10
+    Cuenta 10
+
+1. Al crear nuevos reportes no se tiene que volver a modificar la jerarquía de cuentas.
+2. Al crear nuevos reportes no se tiene que volver a modificar la jerarquía de transacciones.
+3. Crear nuevos reportes debe implicar crear clases nuevas únicamente y no modificar ninguna existente.
