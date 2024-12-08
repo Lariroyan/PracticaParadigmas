@@ -1,19 +1,16 @@
-package estacionamiento;
+package garage;
 
-public abstract class ParkedCar {
-    protected Car car;
-
-    public ParkedCar(Car car) {
-        this.car = car;
+public class VisitorCar extends ParkedCar{
+    public static int VisitorFee = 160;
+    public static int VisitorCarFee = 80;
+  
+    public VisitorCar( Car car ) {
+      super( car );
     }
-
-    public abstract int fee();
-
-    public int passengers() {
-        return car.getPassengers();
+  
+    public int fee() {
+      return car.passengers() * VisitorFee + VisitorCarFee;
     }
-
-    public boolean holds(Car earlyCar) {
-        return car == earlyCar;
-    }
+    
 }
+
