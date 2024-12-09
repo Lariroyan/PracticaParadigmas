@@ -1,0 +1,14 @@
+Se busca construir una agenda que permita registrar feriados y consultar si un día es
+feriado.
+Debe poder registrarse:
+- feriados puntuales, por ejemplo 25 de Mayo de 2023.
+- feriados semanales, por ejemplo los Domingos.
+- periodos de feriados, por ejemplo del 2 al 29 de Enero de 2024
+La agenda debe poder responder,
+- es feriado, por ejemplo es feriado el 25 de Mayo de 2023
+Debe realizarse mediante TDD en forma iterativa incremental.
+Aplicando todos los criterios vistos en clase hasta ahora.
+Hint:
+Considere java.time.LocalDate para las fechas y java.time.DayOfWeek para los días de las
+semana. Son modelos de fechas y días ya incluidos en las librerías de Java, precarios pero
+funcionales y útiles para el parcial.
