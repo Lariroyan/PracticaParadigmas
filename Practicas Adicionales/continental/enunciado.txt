@@ -1,0 +1,25 @@
+
+The Continental
+
+Un hotel muy particular desea reponerse de una serie de eventos que afectaron su calidad de servicio.
+Una de sus iniciativas es desarrollar un prototipo de sistema que ayude en la gestión al cada vez más escaso personal.
+
+Nos piden hacer un programa para registrar reservas, llegadas y salidas de clientes en las habitaciones.
+Las habitaciones están numeradas. Como es un prototipo y el hotel todavía está en refacción no hay limitación en el número de habitaciones ni se definen de antemano.
+
+El sistema debe permitir recibir pedidos de reservas de una habitación para un pasajero.
+Como el mayor activo de The Continental es la discreción, cuando alguien reserva una habitación no se pregunta para qué fecha, sino que la habitación queda reservada hasta que el cliente la ocupe.
+La habitación vuelve a estar disponible cuando el cliente la desocupa.
+Los clientes de The Continental también son muy especiales y nunca reservan una habitación si no la van a ocupar.
+
+Como en cualquier hotel, si una habitación está disponible un cliente la puede ocupar sin reserva previa.
+Si una habitación fue ocupada ya no puede volver a ocuparse hasta ser liberada. Una habitación reservada sólo puede ocuparse por quien la reservó.
+
+Así como exigen discreción, los clientes de The Continental no son muy exigentes en otros aspectos: cuando una habitación es desocupada por un cliente puede ser ocupada inmediatamente por otro…
+
+Los recepcionistas deben poder, en cualquier momento, consultar por el huésped de una habitación dada.
+Guardar registros ha resultado ser un inconveniente para la naturaleza del negocio.
+The Continental se compromete a no guardar el historial de alojamientos en sus habitaciones.
+Sólo lo necesario para la correcta gestión cotidiana de sus dependencias.
+
+Por otro lado se nos advirtió, el nuevo conserje es despiadado y revisará la solución en busca de código repetido, ifs, problemas de diseño, test incompletos, malos nombres, etc...
